@@ -1,0 +1,44 @@
+**Lab 1 – Retrieval and Basic Analysis of Protein Sequences**
+
+##Overview
+
+This laboratory exercise focuses on retrieving protein sequences and performing basic protein sequence analysis using Python.
+
+## Objectives
+
+- Retrieve protein data using NCBI Entrez.
+- Display protein information and amino acid sequences.
+- Calculate basic protein properties.
+- Present the analysis through a Streamlit web application.
+
+## Features
+
+1. Protein Information – Displays protein ID, name, description and sequence.
+2. Sequence Length – Calculates the total number of amino acids.
+3. Amino Acid Composition – Displays the frequency and percentage of each amino acid.
+4. Molecular Weight – Calculates the protein's molecular weight.
+5. Isoelectric Point – Calculates the theoretical pI value.
+
+## Technologies
+
+- Python
+- Biopython
+- Streamlit
+- Pandas
+- NCBI Entrez
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+Enter a protein accession ID to retrieve and analyse its protein sequence.
